@@ -1,0 +1,43 @@
+.customer-review-card {
+    margin-top: -20px;
+    width: 280px;
+    height: 120px;
+    background: linear-gradient(180deg, #ff3c26cc 0%, #ff80805b 100%);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 2px;
+}
+
+
+/* Icon */
+.review-header {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.review-icon {
+    font-size: 24px;
+    color: white;
+}
+
+/* Content */
+.review-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.review-date {
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+}
